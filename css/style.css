@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #D9CDF7;
+  color: #271A45;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+section {
+  display: flex;
+  justify-content: flex-start;
+  margin: 6rem auto;
+}
+@media screen and (max-width: 400px) {
+  section {
+    flex-direction: column;
+  }
+}
+section .image {
+  width: 41rem;
+  align-items: center;
+  margin: auto;
+}
+@media screen and (max-width: 400px) {
+  section .image {
+    width: 80vw;
+  }
+}
+section .image img {
+  width: 100%;
+}
+section .text {
+  width: 28rem;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media screen and (max-width: 400px) {
+  section .text {
+    align-items: center;
+    width: 90vw;
+    text-align: center;
+  }
+}
+section .text span {
+  font-weight: 300;
+  font-size: 1rem;
+}
+section .text h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+section .text p {
+  font-size: 1.5rem;
+}
+section .text button {
+  width: 12rem;
+  border: solid thin #271A45;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Feito por Gabriel *//*# sourceMappingURL=style.css.map */
